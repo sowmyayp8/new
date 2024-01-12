@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #navbar{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #menublock{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:80%;
+    }
+    
+    @media screen and (max-width:400px) {
+        nav{
+            background-color: deeppink;
+            color: blue;
+        }
+        
+    }
+    @media screen  and (min-width:401px) and (max-width:600px){
+        nav{
+            background-color: brown;
+        
+    }
+        
+    }
+    @media screen  and (min-width:601px) and (max-width:750px){
+        nav{
+            background-color:grey;
+        
+    }
+        
+    }
+
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logoblock"><img height="50px" width="50px" src="./photos_videos/bmw_logo.SVG" alt=""></div>
+        <div id="menublock">
+            <h3 id="menu1">home</h3>
+            <h3 id="menu2">about</h3>
+            <h3 id="menu3">login</h3>
+            <h3 id="menu4">logout</h3>
+            <h3 id="menu5">aboout</h3>
+        </div>
+        <img src="" alt="">
+    </nav>
+</body>
+</html>
